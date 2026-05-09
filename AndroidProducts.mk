@@ -5,4 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lemonades.mk
+    $(LOCAL_DIR)/infinity_lemonades.mk
+
+
+COMMON_LUNCH_CHOICES := \
+    infinity_lemonades-user \
+    infinity_lemonades-userdebug \
+    infinity_lemonades-eng
