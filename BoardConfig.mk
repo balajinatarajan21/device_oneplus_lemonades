@@ -33,6 +33,20 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 include vendor/oneplus/lemonades/BoardConfigVendor.mk
 
 
-INFINITY_MAINTAINER := "Spidey"
+
 TARGET_HAS_UDFPS := true 
-WITH_GAPPS := true
+
+
+# Set maintainer
+MISTOS_MAINTAINER := "Spidey"
+
+# Enable GMS with mini package
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+
+# Enable UI enhancements
+TARGET_ENABLE_BLUR := true
+
+# Enable features
+TARGET_SUPPORTS_QUICK_TAP := true
+BYPASS_CHARGE_SUPPORTED := true
