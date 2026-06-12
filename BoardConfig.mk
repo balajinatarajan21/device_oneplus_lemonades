@@ -39,14 +39,6 @@ TARGET_HAS_UDFPS := true
 
 # Set maintainer
 MISTOS_MAINTAINER := "Spidey"
-
-# Enable GMS with mini package
-WITH_GMS := true
-TARGET_USES_MINI_GAPPS := true
-
-# Enable UI enhancements
 TARGET_ENABLE_BLUR := true
-
-# Enable features
 TARGET_SUPPORTS_QUICK_TAP := true
 BYPASS_CHARGE_SUPPORTED := true
