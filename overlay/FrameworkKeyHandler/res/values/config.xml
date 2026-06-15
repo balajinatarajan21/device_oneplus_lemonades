@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Alert slider dialog position -->
-    <item name="alert_slider_dialog_y" type="fraction">23.5%</item>
-
-    <!-- DeviceKeyHandler loader -->
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
         <item>/system_ext/app/KeyHandler/KeyHandler.apk</item>
     </string-array>
