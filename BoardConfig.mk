@@ -31,8 +31,3 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/lemonades/BoardConfigVendor.mk
-
-
-INFINITY_MAINTAINER := "Spidey"
-TARGET_HAS_UDFPS := true 
-WITH_GAPPS := true

@@ -9,6 +9,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+TARGET_HAS_UDFPS := true
+INFINITY_MAINTAINER := "Spidey"
+WITH_GAPPS := true
+
 # Inherit from lemonades device
 $(call inherit-product, device/oneplus/lemonades/device.mk)
 
@@ -32,6 +36,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemDevice=OnePlus9R \
     SystemName=OnePlus9R
 
-INFINITY_MAINTAINER := "Spidey"
-TARGET_HAS_UDFPS := true 
-WITH_GAPPS := true
